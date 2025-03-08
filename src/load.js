@@ -108,7 +108,7 @@ export default function loadContent() {
 
     let text2 = document.createElement("div");
     text2.classList.add("review-text");
-    text2.textContent = `"Meow meow, meow meow meow! Meow meow meow meow meow, meow meow, meow! 😻😻"`;
+    text2.textContent = `"Meow meow, meow meow meow! Meow meow meow meow meow, meow meow, meow! 😻😻😻"`;
     review2.appendChild(text2);
     
     let name2 = document.createElement("div");
