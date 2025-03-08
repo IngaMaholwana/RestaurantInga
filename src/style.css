@@ -1,0 +1,208 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    background-color: #b4d8ee; 
+    font-family: 'Fredoka', sans-serif;
+    overflow-x: hidden;
+}
+
+.fredoka-light {
+    font-family: "Fredoka", serif;
+    font-optical-sizing: auto;
+    font-weight: 300; 
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #557d90;
+    padding: 12px;
+}
+  
+
+.home, .menu, .about {
+    font-size: 18px;
+    padding: 12px;
+    margin: 8px;
+    width: 150px;
+    background-color: #f0cf91;
+    border-radius: 12px;
+}
+
+#content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    padding: 32px;
+    margin-top: 90px;
+}
+
+.header {
+    font-size: 32px;
+    font-weight: bold;
+    background-color: #D2B48C;
+    border: 8px solid #B78A6A;
+    border-radius: 8px;
+    width: 70%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 18px;
+}
+
+.others {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.story, .location, .reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    padding: 0;
+    background-color: #D8B48B;
+    text-align: center;
+    border-radius: 24px;
+    box-sizing: border-box;
+    border: 8px solid #B78A6A;
+}
+
+.reviews {
+    margin-bottom: 52px;
+}
+
+.title-story, .title-location, .title-reviews, .blurb {
+    font-size: 24px;
+    background-color: #B78A6A;
+    padding: 18px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.story-content, .location-content, .review-content {
+    padding: 32px;
+    font-size: 20px;
+}
+
+.reviews-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.review-content {
+    padding: 32px;
+}
+
+.review-name {
+    width: 100%;
+    text-align: right;
+    margin-top: 12px;
+}
+
+.review-text, .review-stars {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.food {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 52px;
+}
+
+.blurb {
+    width: 528.039px;
+    text-align: center;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.item-blurb {
+    font-size: 18px;
+    background-color: #D8B48B;
+    border-radius: 12px;
+    padding: 12px;
+    text-align: center;
+}
+
+.extra {
+    font-size: 21px;
+    margin-bottom: 52px;
+}
+
+.yum {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.main-dishes, .light-snacks, .drinks {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.omelet, .pasta, .pancake, .biscuits, .cappucino, .smoothie {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.about-content {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.intro-content {
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+
+.footer {
+    color: black;
+    background-color: #557d90;
+    font-size: 16px;
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+    margin-top: 32px;
+    bottom: 0;
+}
