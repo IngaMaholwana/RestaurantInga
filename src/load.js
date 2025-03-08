@@ -23,9 +23,7 @@ export default function loadContent() {
     let storyContent = document.createElement("div");
     storyContent.classList.add("story-content");
     storyContent.innerHTML = `Welcome to the <div style="font-weight: bold; font-size: 20px; display: inline;">Best Cat Cafe</div>, the 
-                        purrfect place for cat lovers and coffee enthusiasts alike! Located in the heart of the city, our cafe offers a cozy, 
-                        welcoming space where you can relax and enjoy delicious coffee, teas, and freshly baked goods — 
-                        all while spending time with our friendly and adorable resident cats.`;
+                        purrfect place for cat lovers and coffee enthusiasts alike! Located in busling location of Cape Town phillipi.`;
     //story appending
     story.appendChild(titleStory);
     story.appendChild(storyContent);
@@ -42,7 +40,7 @@ export default function loadContent() {
     
     let locationContent = document.createElement("div");
     locationContent.classList.add("location-content");
-    locationContent.textContent = `123 CatLand Street Blvd, Meow Avenue MW 878656`;
+    locationContent.textContent = `123 BrownsFarm madeup street `;
     // location appending
     location.appendChild(titleLocation);
     location.appendChild(locationContent);
