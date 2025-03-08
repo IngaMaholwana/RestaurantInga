@@ -5,7 +5,7 @@ export default function loadContent() {
     // header
     let header = document.createElement("div");
     header.classList.add("header");
-    header.textContent = `🐱 Best Cat Cafe 🐱`;
+    header.textContent = `🐱 Best Cat Themed Cafe 🐱`;
     content.appendChild(header);
     
     // others
@@ -69,7 +69,7 @@ export default function loadContent() {
 
     let date = document.createElement("div");
     date.classList.add("date");
-    date.textContent = "July 22, 2024";
+    date.textContent = "March 7, 2025";
     review1.appendChild(date);
 
     let stars = document.createElement("div");
@@ -96,7 +96,7 @@ export default function loadContent() {
 
     let date2 = document.createElement("div");
     date2.classList.add("date");
-    date2.textContent = "August 18, 2024";
+    date2.textContent = "August 18, 2025";
     review2.appendChild(date2);
 
     let stars2 = document.createElement("div");
